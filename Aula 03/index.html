@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Vertical Horizontal</h1>
+        <svg>
+            <path d="M10 10 H 90 V 90 H 10 Z" />
+        </svg>
+    </div>
+
+    <div>
+        <h1>linha</h1>
+        <svg>
+            <path d="M10 10 H 300 V 300 H 10 Z" fill="green"/>
+            <path d="M10 10 H 300 V 300 " fill="chartreuse"/>
+            <path d="M10 10 L300 300" fill="white" />
+        </svg>
+    </div>
+
+    <div>
+        <h1>Curvas</h1>
+        <!-- Deixar o site responsive usa o viewBox 
+            e usa o 0 0 e o tamanho da pagina que delimitou no css-->
+        <svg class="tamanho" viewBox="0 0 600 600">
+            <!--     x1  y1  curva    x2  y2 -->
+            <path d="M0,300 Q10,500 500,300 Z" 
+            stroke="chartreuse" 
+            stroke-width="5"
+            fill="none" />
+
+            <path d="M0,300 Q10,100 500,300 Z" 
+            stroke="chartreuse" 
+            stroke-width="5"
+            fill="chartreuse" />
+
+            <path d="M50,310 L 100 230"
+            stroke="darkgray"
+            stroke-width="5"
+            stroke-Linecap="round" />
+
+        </svg>
+    </div>
+
+    <div>
+        <h1>Balão</h1>
+
+        <svg viewBox="0 0 600 600">
+            <ellipse cx="100" cy="100" rx="75" ry="85" fill="red" />
+            
+            <polygon points="90,200 100,165 110,200" fill="red" />
+        
+            <path d="M100,200 100,400"
+            stroke="black"
+            stroke-opacity="0,7" />
+        </svg>
+
+
+    </div>
+
+</body>
+</html>
