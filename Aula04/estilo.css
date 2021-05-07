@@ -9,7 +9,7 @@ SVG {
     background-color: darkgrey;
     border-radius: 2%;
     width: 500px;
-    height: 500px;
+    height: 600px;
 }
 
 h1 {
@@ -28,8 +28,11 @@ h1 {
 
 #homem{
     margin-left: 800px;
-    margin-top: -553px;
+    margin-top: -650px;
 }
 h2 {
     margin-bottom: 20px;
+}
+#lua1 {
+    background-color: olive;
 }
