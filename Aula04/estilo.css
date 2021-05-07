@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+SVG {
+    border: 1px solid;
+    border-color: chartreuse;
+    background-color: darkgrey;
+    border-radius: 2%;
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    background-color: blueviolet;
+    color: white;
+    height: 90px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+#lua {
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+#homem{
+    margin-left: 800px;
+    margin-top: -553px;
+}
+h2 {
+    margin-bottom: 20px;
+}
