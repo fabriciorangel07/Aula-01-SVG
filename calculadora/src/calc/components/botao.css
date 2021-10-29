@@ -1,0 +1,48 @@
+:root{
+    --bg-botao: #f0f0f0;
+    --border-botao: solid 1px #888;
+}
+
+.botao {
+    font-size: 1.4rem;
+    background-color: var(--bg-botao);
+    border: none;
+    border-right: var(--border-botao);
+    border-bottom: var(--border-botao);
+    outline: none;
+
+}
+
+.botao:active{
+    background-color: rgba(81, 89, 100, 0.363);
+    color: #fff;
+    border-color: rgba(81, 89, 100, 0.363);
+}
+
+.botao.dobro{
+    grid-column: span 2;
+}
+
+.botao.triplo{
+    grid-column: span 3;
+}
+
+.botao.operacao{
+    background-color: rgba(11, 38, 59, 0.801);
+    color: #fff;
+    border-color: rgba(11, 38, 59, 0.801);
+}
+
+.botao.operacao:active{
+    background-color: rgba(190, 130, 175, 0.4);
+}
+
+.botao.igual{
+    background-color: rgba(219, 85, 103, 0.801);
+    color: #fff;
+    border-color: rgba(219, 85, 103, 0.801);
+}
+
+.botao.igual:active{
+    background-color: rgba(226, 150, 207, 0.836);
+}
